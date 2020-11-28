@@ -5,6 +5,7 @@
 <link href="/css/ourteam.css" rel="stylesheet">
 
 <div class="written-content">
+    <br>
     <div class="team-pictures-frame">
         <button onclick="onPressPreviousImage()"><</button>
         <div class="team-image" id="1"> <!-- I've hard-coded these in because staff members aren't the kinds of things that change frequently ... nor do charities usually keep a MySQL database of all their staff members ... -->

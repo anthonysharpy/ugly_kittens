@@ -2,9 +2,9 @@
 
 .ourcats-preview-link{
     max-width: 90%;
-    width: 400px;
-    height: 450px;
-    border: 4px solid black;
+    width: 300px;
+    height: 350px;
+    border: 3px solid black;
     margin: auto;
 }
 
@@ -12,16 +12,66 @@
     text-align: center;
     font-size: x-large;
     height: 9.090909%;
-    margin: 374px 0px 0px 0px;
+    margin: 274px 0px 0px 0px;
 }
 
 .ourcats-preview-link img{
     display: block;
     float: left;
     object-fit: cover;
-    width: 50%;
-    height: 200px;
-    filter: saturate(0.2);
+    width: 150px;
+    height: 150px;
+    filter: saturate(0.4);
+}
+
+/* Annoying popup */
+
+.annoying-popup-background {
+    background-color: rgba(1, 1, 1, 0.5);
+    top: 0px;
+    left: 150%;
+    right: 0%;
+    bottom: 0px;
+    position:absolute;
+    z-index: 1;
+}
+
+.annoying-popup-border {
+    background-color: rgb(255, 0, 0, 1);
+    z-index: 2; 
+    top: 162px;
+    left: 20%;
+    right: 20%;
+    bottom: 162px;
+    position:absolute;
+}
+
+.annoying-popup-textbox {
+    background-color: rgb(255, 255, 255, 1);
+    text-align: center;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    position:absolute;
+    z-index: 3;
+}
+
+.annoying-popup-textbox button {
+    font-size: large;
+    height:70px;
+    width:100px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 6px;
+    position: relative;
+    bottom: 3.8vw;
+    border: 6px solid red;
+}
+
+.annoying-popup-textbox button:hover {
+    background-color: red;
+    color: white;
 }
 
 /* Generic stuff */

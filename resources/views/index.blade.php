@@ -1,6 +1,8 @@
 @extends('layouts.layout')
 
 @section('index')
+<script src="/js/annoying-popup.js"></script>
+
 <div class="written-content">
     <H2>Our Mission</H2>
     <p>Here at UKAT we aim to provide each and every cat with a loving home, no matter how horrifically ugly they may be. We are an independent organisation funded by members of the public who really ought to know better.</p>

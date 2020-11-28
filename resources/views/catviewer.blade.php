@@ -3,6 +3,7 @@
 @section('catviewer')
 
 <link href="/css/catviewer.css" rel="stylesheet">
+<script src="/js/annoying-popup.js"></script>
 
 <div class="written-content">
     <div class="cat-viewer-content">

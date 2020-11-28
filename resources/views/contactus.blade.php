@@ -1,6 +1,8 @@
 @extends('layouts.layout')
 
 @section('contactus')
+<script src="/js/annoying-popup.js"></script>
+
 <div class="written-content">
     <H2><b>Contact Us</b></H2>
     <p>Are you as passionate as we are about rescuing society's most unashamedly rejected felines? If so, we'd love to hear from you!</p>
