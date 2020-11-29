@@ -10,7 +10,7 @@
     <H2>Our Cats</H2>
     <p>Click below to browse our selection of cats currently available for adoption.</p>
     <br>
-    <a href="/ourcats" style="text-decoration: none; color: black;">
+    <div onclick="onPressCatsPreview()" style="text-decoration: none; color: black;">
         <div class="ourcats-preview-link">
             <div>
                 @for($i = 0; $i < 4 && $i < count($cats); $i++)
@@ -24,6 +24,6 @@
                 <p>Come Say Hi!</p>
             </div>
         </div>
-    </a>
+</div>
 </div>
 @endsection

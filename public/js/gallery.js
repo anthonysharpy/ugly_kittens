@@ -1,7 +1,7 @@
 
 var staff = [["Sarah", "Robert", "Matilda", "Taylor Swift (Cat Form)", "Jack"],
             ["Sarah has been with us for just over three years now and enjoys morning coffee, Marvel movies and being single.",
-            "Robert used to be a big-screen celebrity known for his gritty depictions of the hyper-masculised lifestyle. Now he looks after cats.",
+            "Robert used to be a big-screen celebrity known for his gritty depictions of the hyper-masculinised lifestyle. Now he looks after cats.",
             "Yes, this is the girl from the movie Matilda, only thirty years on.",
             "It is often said that society's elite are actually a secretive race of power-hungry reptiles. This is incorrect. They are actually cats.",
             "Jack is an avid fan of movies, blogs, new-wave feminism and, of course, cats."]];

@@ -16,12 +16,12 @@ function saveHaveShownPopup()
 
 function showPopup()
 {
-    document.getElementsByClassName("annoying-popup-background")[0].style.left = "0%";
+    document.getElementsByClassName("annoying-popup-background")[0].style.display = "block";
 }
 
 function closePopup()
 {
-    document.getElementsByClassName("annoying-popup-background")[0].style.left = "150%";
+    document.getElementsByClassName("annoying-popup-background")[0].style.display = "none";
 }
 
 function timeSinceVisited() // in milliseconds
@@ -40,11 +40,23 @@ function timeSinceVisited() // in milliseconds
 
 function checkShouldShowAnnoyingPopup()
 {
-    if(!haveShownPopup() && timeSinceVisited() > 2000)
+    if(!haveShownPopup() && timeSinceVisited() > 5000)
     {
         saveHaveShownPopup();
         showPopup();
     }
+}
+
+var flashon = false;
+
+function toggleFlash()
+{
+    if(flashon) document.getElementsByClassName("annoying-popup-border")[0].style.backgroundColor = "red"; 
+    else document.getElementsByClassName("annoying-popup-border")[0].style.backgroundColor = "rgb(211, 211, 211, 1)";
+
+    flashon = !flashon;
+
+    console.log("hi");
 }
 
 function initialisePopup()
@@ -52,7 +64,8 @@ function initialisePopup()
     if(window.location.pathname == "/") document.cookie = "kittenshownpopup=0";// reset when we go to home because why not
 
     saveTimeOpened();    
-    setInterval(checkShouldShowAnnoyingPopup, 1000);
+    setInterval(checkShouldShowAnnoyingPopup, 3000);
+    setInterval(toggleFlash, 250);
 }
 
 document.onload = initialisePopup();

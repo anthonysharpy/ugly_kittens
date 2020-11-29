@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.ourcats-preview-link:hover{
+    cursor: pointer;
+}
+
 .ourcats-preview-link-title{
     text-align: center;
     font-size: x-large;
@@ -28,50 +32,51 @@
 
 .annoying-popup-background {
     background-color: rgba(1, 1, 1, 0.5);
-    top: 0px;
-    left: 150%;
-    right: 0%;
-    bottom: 0px;
-    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
     z-index: 1;
+    display: none;
 }
 
 .annoying-popup-border {
     background-color: rgb(255, 0, 0, 1);
     z-index: 2; 
-    top: 162px;
+    top: 10%;
     left: 20%;
     right: 20%;
-    bottom: 162px;
+    bottom: 10%;
     position:absolute;
 }
 
 .annoying-popup-textbox {
     background-color: rgb(255, 255, 255, 1);
     text-align: center;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
+    top: 1.5vw;
+    left: 1.5vw;
+    right: 1.5vw;
+    bottom: 1.5vw;
     position:absolute;
     z-index: 3;
 }
 
 .annoying-popup-textbox button {
-    font-size: large;
-    height:70px;
-    width:100px;
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-top: 6px;
+    font-size: 2vw;
+    height:10%;
+    width: 20%;
+    margin-left: 1vw;
+    margin-right: 1vw;
     position: relative;
-    bottom: 3.8vw;
-    border: 6px solid red;
+    bottom: 10%;
+    border: 0.3vw solid red;
 }
 
 .annoying-popup-textbox button:hover {
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 
 /* Generic stuff */
@@ -80,6 +85,8 @@ html, body {
     font-family: 'Arial';
     position: relative;
     background-color: hsl(0, 0%, 95%);
+    height: 99%;
+    margin: 0.3%;
 }
 
 .main-wrapper{

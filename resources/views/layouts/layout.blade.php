@@ -15,8 +15,8 @@
             <div class="annoying-popup-border">
                 <div class="annoying-popup-textbox">
                     <p style="font-size: 2.08333vw">THIS IS ONE OF THOSE ANNOYING POPUPS!</p>
-                    <p style="font-size: 1.302083vw; margin-top: 4.25vw; text-decoration: underline"><i>Dear user, are you enjoying my website? If so, then</i></p>
-                    <p style="font-size: 5vw; margin-top: 3.75vw;">PLEASE EMPLOY ME!</p>
+                    <p style="font-size: 1.302083vw; margin-top: 6.25vw; text-decoration: underline"><i>Dear user, are you enjoying my website? If so, then please consider...</i></p>
+                    <p style="font-size: 5vw; margin-top: 6.75vw;">EMPLOYING ME!</p>
                     <button onclick="closePopup()"><b>YES</b></button>
                     <button onclick="closePopup()"><b>MAYBE</b></button>
                     <button><b>NO</b></button>

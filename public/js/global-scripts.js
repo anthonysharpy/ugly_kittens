@@ -22,3 +22,8 @@ function onClickOurTeamButton(cat)
 {
     window.location.href = "/ourteam";
 }
+
+function onPressCatsPreview()
+{
+    window.location.href = "/ourcats";
+}
